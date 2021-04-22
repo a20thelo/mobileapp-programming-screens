@@ -59,6 +59,7 @@ public class BlankFragment1 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        //This creates the layout
         return inflater.inflate(R.layout.fragment_blank1, container, false);
     }
 }
