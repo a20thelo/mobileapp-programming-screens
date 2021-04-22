@@ -14,11 +14,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button = findViewById(R.id.Close);
+        Button button = findViewById(R.id.close);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("TAG", "Closing");
+                Log.d("LOGOUT_SCREEN", "Closing");
 
 
                 finish();

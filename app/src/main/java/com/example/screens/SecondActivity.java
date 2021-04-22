@@ -20,11 +20,12 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                Log.d("LOGIN_SCREEN", "Start activity");
+
                 Intent intent = new Intent(SecondActivity.this, MainActivity.class);
-                Log.d("TAG", "Hello");
+                startActivity(intent);
 
 
-                finish();
 
             }
         });
