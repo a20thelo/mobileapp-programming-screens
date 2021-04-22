@@ -16,6 +16,13 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:name="com.example.screens.BlankFragment1"
+            android:tag="blank_fragment1"/>
+
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

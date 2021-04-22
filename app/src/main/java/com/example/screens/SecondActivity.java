@@ -23,6 +23,8 @@ public class SecondActivity extends AppCompatActivity {
                 Log.d("LOGIN_SCREEN", "Start activity");
 
                 Intent intent = new Intent(SecondActivity.this, MainActivity.class);
+
+
                 startActivity(intent);
 
 
